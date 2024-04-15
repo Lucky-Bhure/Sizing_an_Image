@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing an Image</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sizing an Image</h1>
+        <div class="para">
+            <p>Increase the width of an image by</p>
+            <p>clicking the plus button and decrease by</p>
+            <p>clicking the Minus button. For every</p>
+            <p>action, the image increases or decreases</p>
+            <p>by 10px.</p>
+        </div>
+        <h3 class="alerth" id="alert"></h3>
+        <div class="imagesizing">
+            <img class="imgclass" id="imgid" src="https://images.unsplash.com/photo-1550085146-e2181eb8fb82?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+            <div class="widlen">
+                <h4>width: </h4>
+                <h4 id="wvalue">200</h4>
+                <h4>px</h3>
+            </div>
+            <div class="sizebtn">
+                <img src="https://www.iconpacks.net/icons/2/free-minus-icon-3108-thumb.png" onclick="minus()" alt="minus">
+                <h3>| 10px |</h3>
+                <img src="https://pngimg.com/uploads/plus/plus_PNG13.png" onclick="plus()" alt="plus">
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
